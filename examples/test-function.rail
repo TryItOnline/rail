@@ -1,0 +1,11 @@
+$ 'main'
+ \
+  \-[before1\n\]{1}[after1\n\]ooooo-#
+
+$ '1'
+ \
+  \-[ before2\n\]{2}[ after2\n\]-#
+
+$ '2'
+ \
+  \-[  Inside 2\n\]-#

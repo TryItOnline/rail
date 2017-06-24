@@ -1,0 +1,9 @@
+$ 'main'
+ \
+  \-[doublemint]-{dup}-[gum]-{swap}---#
+$ 'dup'
+ \
+  \-(!a!)-(a)-(a)-#
+$ 'swap'
+ \
+  \-(!a!)-(!b!)-(a)-(b)-#

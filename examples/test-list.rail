@@ -1,0 +1,19 @@
+$ 'main' (--):
+ \
+  \--n[rats-]:[live-]:[on-]:[no-]:[evil-]:[star-]:-{reverse}-~o~o~o~o~o~o-#
+
+$ 'reverse' (a -- b): a is a list. b is the reverse of that list.
+ \
+  \                                       /-(norm)~(rev){swap}:-\
+   \-(!norm!)-n(!rev!)----(norm){isNil?}-<                      |
+                       /                  \-(rev)-#             |
+                       |                                        |
+                       \----------------------(!mron!)-(!ver!)--/
+
+$ 'swap' (a b -- b a): swap a and b on the stack.
+ \
+  \-(!b!)-(!a!)-(b)-(a)-#
+
+$ 'isNil?' (a -- b): a is a list. b is t if a is nil and f otherwise.
+ \
+  \-?[nil]q-#
